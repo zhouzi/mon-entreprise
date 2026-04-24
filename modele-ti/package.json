@@ -1,5 +1,5 @@
 {
-	"name": "modele-ti",
+	"name": "@akimeo/modele-ti",
 	"version": "0.0.1",
 	"description": "Les règles publicodes du système social français pour les TI.",
 	"type": "module",

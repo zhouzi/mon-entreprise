@@ -50,9 +50,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@akimeo/modele-as@workspace:^, @akimeo/modele-as@workspace:modele-as":
+  version: 0.0.0-use.local
+  resolution: "@akimeo/modele-as@workspace:modele-as"
+  dependencies:
+    js-yaml: "npm:^4.1.0"
+    onchange: "npm:^7.1.0"
+  peerDependencies:
+    publicodes: ^1.0.4
+  languageName: unknown
+  linkType: soft
+
 "@akimeo/modele-social@workspace:^, @akimeo/modele-social@workspace:modele-social":
   version: 0.0.0-use.local
   resolution: "@akimeo/modele-social@workspace:modele-social"
+  dependencies:
+    js-yaml: "npm:^4.1.0"
+    onchange: "npm:^7.1.0"
+  peerDependencies:
+    publicodes: ^1.0.4
+  languageName: unknown
+  linkType: soft
+
+"@akimeo/modele-ti@workspace:^, @akimeo/modele-ti@workspace:modele-ti":
+  version: 0.0.0-use.local
+  resolution: "@akimeo/modele-ti@workspace:modele-ti"
   dependencies:
     js-yaml: "npm:^4.1.0"
     onchange: "npm:^7.1.0"
@@ -27284,28 +27306,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"modele-as@workspace:^, modele-as@workspace:modele-as":
-  version: 0.0.0-use.local
-  resolution: "modele-as@workspace:modele-as"
-  dependencies:
-    js-yaml: "npm:^4.1.0"
-    onchange: "npm:^7.1.0"
-  peerDependencies:
-    publicodes: ^1.0.4
-  languageName: unknown
-  linkType: soft
-
-"modele-ti@workspace:^, modele-ti@workspace:modele-ti":
-  version: 0.0.0-use.local
-  resolution: "modele-ti@workspace:modele-ti"
-  dependencies:
-    js-yaml: "npm:^4.1.0"
-    onchange: "npm:^7.1.0"
-  peerDependencies:
-    publicodes: ^1.0.4
-  languageName: unknown
-  linkType: soft
-
 "module-definition@npm:^5.0.1":
   version: 5.0.1
   resolution: "module-definition@npm:5.0.1"
@@ -32424,7 +32424,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "site@workspace:site"
   dependencies:
+    "@akimeo/modele-as": "workspace:^"
     "@akimeo/modele-social": "workspace:^"
+    "@akimeo/modele-ti": "workspace:^"
     "@atomik-color/component": "npm:^1.0.17"
     "@atomik-color/core": "npm:^1.0.13"
     "@axe-core/react": "npm:^4.7.3"
@@ -32485,8 +32487,6 @@ __metadata:
     isbot: "npm:^3.7.0"
     jsdom: "npm:^26.1.0"
     markdown-to-jsx: "npm:^7.3.2"
-    modele-as: "workspace:^"
-    modele-ti: "workspace:^"
     netlify-cli: "npm:^17.10.1"
     publicodes: "npm:^1.8.1"
     react: "npm:^18.2.0"

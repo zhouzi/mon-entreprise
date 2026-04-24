@@ -48,7 +48,9 @@
 		"i18n:ui:translate": "rm -rf source/locales/static-analysis-fr.json && i18next -c scripts/i18n/parser.config.js && node scripts/i18n/translate-ui.js"
 	},
 	"dependencies": {
+		"@akimeo/modele-as": "workspace:^",
 		"@akimeo/modele-social": "workspace:^",
+		"@akimeo/modele-ti": "workspace:^",
 		"@atomik-color/component": "^1.0.17",
 		"@atomik-color/core": "^1.0.13",
 		"@axe-core/react": "^4.7.3",
@@ -72,8 +74,6 @@
 		"iframe-resizer": "^4.3.7",
 		"isbot": "^3.7.0",
 		"markdown-to-jsx": "^7.3.2",
-		"modele-as": "workspace:^",
-		"modele-ti": "workspace:^",
 		"publicodes": "^1.8.1",
 		"react": "^18.2.0",
 		"react-aria": "^3.44.0",
